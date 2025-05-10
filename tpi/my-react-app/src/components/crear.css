@@ -1,0 +1,64 @@
+.crear-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e1e1e;
+}
+
+.crear-container form {
+  background-color: #292929;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.crear-container form input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  font-size: 16px;
+}
+
+.crear-container form input[type="text"]::placeholder {
+  color: #888;
+}
+
+.crear-container form input[type="checkbox"] {
+  margin-top: 10px;
+  accent-color: #ffd700;
+}
+
+.crear-container form button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffd700;
+  color: #1e1e1e;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.crear-container form button:hover {
+  background-color: #e6c200;
+}
+
+.crear-container form label {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.crear-container form input[type="checkbox"] + label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+}

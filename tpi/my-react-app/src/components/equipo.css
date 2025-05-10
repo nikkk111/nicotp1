@@ -1,0 +1,56 @@
+.equipo-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000000; /* Fondo negro */
+}
+
+.equipo-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  width: 100%;
+  padding: 40px;
+  background-color: #1e1e1e; /* Fondo gris oscuro */
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.equipo-container form input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d9ff00; /* Amarillo */
+  border-radius: 5px;
+  background-color: #000000; /* Fondo negro */
+  color: #ffffff; /* Texto blanco */
+  outline: none;
+}
+
+
+
+.equipo-container form input[type="text"]:focus {
+  border-color: #ffffff; /* Blanco al enfocar */
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.equipo-container form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #d9ff00; /* Fondo amarillo */
+  color: #000000; /* Texto negro */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.equipo-container form button:hover {
+  background-color: #c4e200; /* Tono amarillo más claro */
+}
+
+.equipo-container form button:active {
+  background-color: #a1ba00; /* Amarillo oscuro al hacer clic */
+}

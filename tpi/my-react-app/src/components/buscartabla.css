@@ -1,0 +1,75 @@
+.tabla-container {
+  padding: 20px;
+  background-color:#736621;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.tabla-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nav-button {
+  background-color: #f3d00d;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #f3d00d;
+}
+
+.titulo {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.tabla-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.tabla-input {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #f3d00d;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.tabla-button {
+  background-color: #eeff03;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tabla-button:hover {
+  background-color: #d6d315;
+}
+
+.tabla-mensaje {
+  margin-top: 10px;
+  text-align: center;
+  color: #f8d7da;
+  background-color: #721c24;
+  padding: 10px;
+  border-radius: 5px;
+}

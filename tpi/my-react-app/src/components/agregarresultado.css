@@ -1,0 +1,90 @@
+/* Contenedor principal del formulario de AgregarResultado */
+.agregar-resultado-form {
+  background-color: black;
+  color: yellow;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Estilo del campo de entrada para el nombre del torneo */
+.agregar-resultado-form input[type="text"]#torneoNombre {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  background-color: black;
+  color: yellow;
+  font-size: 16px;
+}
+
+.agregar-resultado-form input[type="text"]#torneoNombre:focus {
+  outline: none;
+  border-color: #ffcc00;
+}
+
+/* Estilo para los inputs de los equipos y goles */
+.agregar-resultado-form input[type="text"],
+.agregar-resultado-form input[type="number"] {
+  width: calc(25% - 10px);
+  margin-right: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  background-color: black;
+  color: yellow;
+  font-size: 16px;
+}
+
+.agregar-resultado-form input[type="text"]:focus,
+.agregar-resultado-form input[type="number"]:focus {
+  outline: none;
+  border-color: #ffcc00;
+}
+
+/* Estilo para los botones */
+.agregar-resultado-form button {
+  background-color: yellow;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.agregar-resultado-form button:hover {
+  background-color: #ff9900;
+}
+
+/* Sección para mostrar los resultados */
+.agregar-resultado-form div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.agregar-resultado-form div input {
+  width: 48%;
+  margin-right: 4%;
+}
+
+.agregar-resultado-form div input:last-child {
+  margin-right: 0;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+  .agregar-resultado-form input[type="text"],
+  .agregar-resultado-form input[type="number"] {
+    width: 100%;
+  }
+
+  .agregar-resultado-form button {
+    font-size: 16px;
+  }
+}
